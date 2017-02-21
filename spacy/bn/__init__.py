@@ -14,3 +14,4 @@ class Bengali(Language):
         lex_attr_getters[LANG] = lambda text: 'bn'
 
         stop_words = STOP_WORDS
+        lemma_rules = LEMMA_RULES
